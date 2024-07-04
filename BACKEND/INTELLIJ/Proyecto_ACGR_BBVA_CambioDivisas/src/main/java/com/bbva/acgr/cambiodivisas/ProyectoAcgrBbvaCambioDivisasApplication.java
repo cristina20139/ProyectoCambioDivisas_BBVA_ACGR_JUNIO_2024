@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Clase principal para la aplicación de Spring Boot que maneja el cambio de divisas.
  *
  * <p>Esta clase inicializa y arranca la aplicación Spring Boot, configurando todos los componentes
- * necesarios para el correcto funcionamiento del sistema de cambio de divisas.</p>
+ * necesarios para el correcto funcionamiento del sistema numee cambio de divisas.</p>
  *
  * <p>Ejemplo de uso:</p>
  * <pre>

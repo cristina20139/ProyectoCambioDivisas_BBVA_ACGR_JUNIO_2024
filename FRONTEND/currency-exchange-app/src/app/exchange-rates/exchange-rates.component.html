@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let currency of rates | keyValue">
+    {{ currency.key }}: {{ currency.value }}
+  </li>
+</ul>
