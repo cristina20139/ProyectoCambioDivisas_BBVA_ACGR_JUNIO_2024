@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "ba318514-a699-4931-a14c-c4c63c40737f",
+		"name": "Cambio Divsas Prueba ACGR BBVA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2403451"
+	},
+	"item": [
+		{
+			"name": "01 Latest Currency Exchange Rates",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "02 Get Rates of Desired Currencies Only",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "03 Supported Currencies",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "04 Supported Currency Symbols",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "05 Historical Data Limits",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "06 Latest Currency Exchange Rates",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "07 Get Rates of Desired Currencies Only",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "08 localhost 01 Latest Currency Exchange Rates",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
