@@ -10,7 +10,27 @@
 			"name": "01 Latest Currency Exchange Rates",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://api.currencyfreaks.com/v2.0/rates/latest?apikey=bde53f3076204fa9b4bc3e16c3b3324c",
+					"protocol": "https",
+					"host": [
+						"api",
+						"currencyfreaks",
+						"com"
+					],
+					"path": [
+						"v2.0",
+						"rates",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "bde53f3076204fa9b4bc3e16c3b3324c"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -18,7 +38,31 @@
 			"name": "02 Get Rates of Desired Currencies Only",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://api.currencyfreaks.com/v2.0/rates/latest?apikey=bde53f3076204fa9b4bc3e16c3b3324c&symbols=PKR,GBP,EUR,USD",
+					"protocol": "https",
+					"host": [
+						"api",
+						"currencyfreaks",
+						"com"
+					],
+					"path": [
+						"v2.0",
+						"rates",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "bde53f3076204fa9b4bc3e16c3b3324c"
+						},
+						{
+							"key": "symbols",
+							"value": "PKR,GBP,EUR,USD"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -26,7 +70,20 @@
 			"name": "03 Supported Currencies",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://api.currencyfreaks.com/v2.0/supported-currencies",
+					"protocol": "https",
+					"host": [
+						"api",
+						"currencyfreaks",
+						"com"
+					],
+					"path": [
+						"v2.0",
+						"supported-currencies"
+					]
+				}
 			},
 			"response": []
 		},
@@ -34,7 +91,20 @@
 			"name": "04 Supported Currency Symbols",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://api.currencyfreaks.com/v2.0/currency-symbols",
+					"protocol": "https",
+					"host": [
+						"api",
+						"currencyfreaks",
+						"com"
+					],
+					"path": [
+						"v2.0",
+						"currency-symbols"
+					]
+				}
 			},
 			"response": []
 		},
@@ -42,7 +112,20 @@
 			"name": "05 Historical Data Limits",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://api.currencyfreaks.com/v2.0/historical-data-limits",
+					"protocol": "https",
+					"host": [
+						"api",
+						"currencyfreaks",
+						"com"
+					],
+					"path": [
+						"v2.0",
+						"historical-data-limits"
+					]
+				}
 			},
 			"response": []
 		},
@@ -50,7 +133,27 @@
 			"name": "06 Latest Currency Exchange Rates",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://api.currencyfreaks.com/v2.0/rates/latest?apikey=bde53f3076204fa9b4bc3e16c3b3324c",
+					"protocol": "https",
+					"host": [
+						"api",
+						"currencyfreaks",
+						"com"
+					],
+					"path": [
+						"v2.0",
+						"rates",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "bde53f3076204fa9b4bc3e16c3b3324c"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -58,7 +161,31 @@
 			"name": "07 Get Rates of Desired Currencies Only",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://api.currencyfreaks.com/v2.0/rates/latest?apikey=bde53f3076204fa9b4bc3e16c3b3324c&symbols=PKR,GBP,EUR,USD",
+					"protocol": "https",
+					"host": [
+						"api",
+						"currencyfreaks",
+						"com"
+					],
+					"path": [
+						"v2.0",
+						"rates",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "bde53f3076204fa9b4bc3e16c3b3324c"
+						},
+						{
+							"key": "symbols",
+							"value": "PKR,GBP,EUR,USD"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -66,7 +193,17 @@
 			"name": "08 localhost 01 Latest Currency Exchange Rates",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/latest-rates",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"latest-rates"
+					]
+				}
 			},
 			"response": []
 		}
