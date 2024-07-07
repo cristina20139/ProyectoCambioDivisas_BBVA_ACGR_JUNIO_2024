@@ -19,7 +19,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Aura Cristina Garzón Rodríguez (auragarzonr@gmail.com)
  * @Since 3 Julio 2024 5:51 AM
  */
-@SpringBootApplication
+
+@SpringBootApplication(scanBasePackages = "com.bbva.acgr")
 public class ProyectoAcgrBbvaCambioDivisasApplication {
 
 	/**

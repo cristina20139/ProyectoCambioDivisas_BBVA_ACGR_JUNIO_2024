@@ -1,6 +1,7 @@
 package com.bbva.acgr.cambiodivisas.controller;
 
 import com.bbva.acgr.cambiodivisas.model.rest.CambioDivisasResponse;
+import com.bbva.acgr.cambiodivisas.service.CambioDivisasLogicaNegociosBDService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -32,10 +33,17 @@ import reactor.core.publisher.Mono;
 @RestController
 public class CambioDivisasController {
 
+    @Autowired
+    CambioDivisasLogicaNegociosBDService cambioDivisasLogicaNegociosBDService;
 
     private static final Logger logger = LoggerFactory.getLogger(CambioDivisasController.class);
 
     private final CambioDivisasService currencyService;
+
+    /**
+     * @author Aura Cristina Garzón Rodríguez
+     * @since  7 Julio de 2024 6:12 pm
+     */
 
     /**
      * Constructor del controlador que inyecta una instancia de CurrencyService.
@@ -60,6 +68,9 @@ public class CambioDivisasController {
         logger.info("Info message");
         logger.warn("Warning message");
         logger.error("Error message");
-        return currencyService.getLatestRates("bde53f3076204fa9b4bc3e16c3b3324c");
+        Mono<CambioDivisasResponse> mono = currencyService.getLatestRates("bde53f3076204fa9b4bc3e16c3b3324c");
+        CambioDivisasResponse cambioDivisasResponse = mono.block();
+        this.cambioDivisasLogicaNegociosBDService.registrarInformacionenBaseDatos(cambioDivisasResponse.getBase(),cambioDivisasResponse.getRates());
+        return mono;
     }
 }
