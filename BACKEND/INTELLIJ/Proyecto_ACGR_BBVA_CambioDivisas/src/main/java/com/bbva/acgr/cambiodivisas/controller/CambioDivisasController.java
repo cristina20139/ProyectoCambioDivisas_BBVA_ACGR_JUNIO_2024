@@ -50,7 +50,6 @@ public class CambioDivisasController {
     @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/latest-rates")
     public Mono<CambioDivisasResponse> getLatestRates() {
-        System.out.println("4:30");
         return currencyService.getLatestRates("bde53f3076204fa9b4bc3e16c3b3324c");
     }
 }

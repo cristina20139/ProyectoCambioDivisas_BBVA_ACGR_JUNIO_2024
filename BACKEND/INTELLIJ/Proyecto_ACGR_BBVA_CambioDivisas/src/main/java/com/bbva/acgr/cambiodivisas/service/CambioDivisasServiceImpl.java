@@ -16,9 +16,21 @@ public class CambioDivisasServiceImpl implements CambioDivisasService {
 
     private final WebClient webClient;
 
+    /**
+     * @author Aura Cristina Garzon Rodríguez
+     * @param webClient
+     */
+
     public CambioDivisasServiceImpl(WebClient webClient) {
         this.webClient = webClient;
     }
+
+    /**
+     * @author Aura Cristina Garzon Rodríguez
+     * @since 3 Julio 2024 11:03 AM
+     * @param apiKey la clave de API requerida para realizar la solicitud
+     * @return
+     */
 
     @Override
     public Mono<CambioDivisasResponse> getLatestRates(String apiKey) {
