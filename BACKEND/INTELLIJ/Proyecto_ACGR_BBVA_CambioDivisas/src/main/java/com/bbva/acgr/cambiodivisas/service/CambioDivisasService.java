@@ -1,6 +1,6 @@
 package com.bbva.acgr.cambiodivisas.service;
 
-import com.bbva.acgr.cambiodivisas.model.CambioDivisasResponse;
+import com.bbva.acgr.cambiodivisas.model.rest.CambioDivisasResponse;
 import reactor.core.publisher.Mono;
 
 /**

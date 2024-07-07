@@ -1,6 +1,6 @@
 package com.bbva.acgr.cambiodivisas.controller;
 
-import com.bbva.acgr.cambiodivisas.model.CambioDivisasResponse;
+import com.bbva.acgr.cambiodivisas.model.rest.CambioDivisasResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

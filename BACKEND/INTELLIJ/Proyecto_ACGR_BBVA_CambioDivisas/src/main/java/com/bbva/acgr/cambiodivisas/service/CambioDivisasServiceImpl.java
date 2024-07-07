@@ -1,6 +1,6 @@
 package com.bbva.acgr.cambiodivisas.service;
 
-import com.bbva.acgr.cambiodivisas.model.CambioDivisasResponse;
+import com.bbva.acgr.cambiodivisas.model.rest.CambioDivisasResponse;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;

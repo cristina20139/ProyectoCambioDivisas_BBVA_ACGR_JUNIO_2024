@@ -1,6 +1,6 @@
 package com.bbva.acgr.cambiodivisas.Proyecto_ACGR_BBVA_CambioDivisas;
 
-import com.bbva.acgr.cambiodivisas.model.CambioDivisasResponse;
+import com.bbva.acgr.cambiodivisas.model.rest.CambioDivisasResponse;
 import com.bbva.acgr.cambiodivisas.service.CambioDivisasService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

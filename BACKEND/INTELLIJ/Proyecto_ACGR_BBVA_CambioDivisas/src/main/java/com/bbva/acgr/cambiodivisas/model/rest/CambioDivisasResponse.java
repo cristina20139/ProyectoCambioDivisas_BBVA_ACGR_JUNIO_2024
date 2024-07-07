@@ -1,4 +1,4 @@
-package com.bbva.acgr.cambiodivisas.model;
+package com.bbva.acgr.cambiodivisas.model.rest;
 
 import java.util.Map;
 
