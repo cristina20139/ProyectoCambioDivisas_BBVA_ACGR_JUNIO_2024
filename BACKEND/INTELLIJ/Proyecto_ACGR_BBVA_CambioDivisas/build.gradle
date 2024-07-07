@@ -24,6 +24,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation group: 'log4j', name: 'log4j', version: '1.2.17'
 	testImplementation 'io.projectreactor:reactor-test'
 }
 
